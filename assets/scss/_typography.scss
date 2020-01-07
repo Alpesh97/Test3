@@ -5,7 +5,8 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2rem;
-
+    margin-bottom: .5rem;
+    color: $ltGray;
     @media #{$mq-1000-up}{
         font-size: 3rem;
     }
